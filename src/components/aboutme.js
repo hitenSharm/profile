@@ -7,7 +7,7 @@ import { DistortionText } from 'react-text-fun'
 const Aboutme = () => {
   return (
     <div>
-        <Row style={{marginTop:"2vh"}}>
+        <Row style={{marginTop:"20vh"}}>
         <Col xxl={5} xl={3} lg={3} xs={3} md={3} sm={3} />
             <Col style={{marginTop:"5px",padding:"5px"}}>
             <DistortionText

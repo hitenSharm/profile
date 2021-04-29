@@ -3,6 +3,7 @@ import Name from "./name";
 import Navbar from './navbar'
 import Aboutme from './aboutme'
 import Links from './icons'
+import Count from './count'
 
 function Bigcomponent(){
 
@@ -11,6 +12,7 @@ function Bigcomponent(){
         <Navbar/>
         <Name/>
         <Links/>
+        <Count/>
         <Aboutme/> 
         </div>
     );
