@@ -2,11 +2,10 @@ import React, { useEffect } from "react";
 import Fade from "react-reveal/Fade";
 import "antd/dist/antd.css";
 import { Row, Col, Image } from "antd";
-import { ScrollPercentage } from 'react-scroll-percentage'
 
 const Aboutme = () => {
   return (
-    <div>
+    <div id="aboutme">
       <Row style={{ marginTop: "17vh" }}>
         <Col xxl={5} xl={3} lg={3} xs={0} md={3} sm={3} />      
         <Col style={{ marginTop: "5px", padding: "5px" }}>                           
@@ -23,8 +22,8 @@ const Aboutme = () => {
           </h1>         
         </Col>
       </Row>
-      <Row>
-        <Col xxl={5} xl={8} lg={3} xs={3} md={3} sm={3} />
+      <Row style={{ marginTop: "10vh" }}>
+        <Col xxl={5} xl={8} lg={3} xs={2} md={3} sm={3} />
         <Col          
           style={{ margin: "1em" }}
         >
