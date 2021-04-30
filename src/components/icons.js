@@ -25,6 +25,11 @@ const Links = () =>{
             <img src="https://i.imgur.com/FQKtd0K.png" width="70px" alt="LinkedIn Hiten Sharma"></img>
             </Fade>
             </a>            
+            <a href="mailto:hiten.sharm1708@gmail.com" style={{margin:"6px" , cursor:"none"}}>
+            <Fade bottom>
+            <img src="https://seeklogo.com/images/G/gmail-logo-0240527C35-seeklogo.com.png" width="70px" alt="Gmail Hiten Sharma"></img>
+            </Fade>
+            </a> 
             </Col>
             </Row>
         </div>
