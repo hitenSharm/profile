@@ -68,7 +68,7 @@ class Navbar extends React.Component {
           </Link>
         </Menu.Item>
         <Menu.Item style={style2}>
-          <a href="#" style={style}>
+          <a target="_blank" href="https://drive.google.com/file/d/15Y6LNI8RVMk1A3C_BZeurb1DFR9dNYQK/view?usp=sharing" style={style}>
             Resume
           </a>
         </Menu.Item>
