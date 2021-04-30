@@ -4,7 +4,7 @@ import Navbar from './navbar'
 import Aboutme from './aboutme'
 import Links from './icons'
 import Count from './count'
-
+import Skill from './skills'
 
 function Bigcomponent(){
     return(
@@ -14,6 +14,7 @@ function Bigcomponent(){
         <Links/>
         <Count/>
         <Aboutme/> 
+        <Skill/>
         </div>
     );
 

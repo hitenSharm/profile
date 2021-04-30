@@ -3,6 +3,7 @@ import countapi from 'countapi-js';
 import { Row, Col } from "antd";
 import axios from 'axios'
 import "antd/dist/antd.css";
+import CountUp from 'react-countup';
 
 const Count = () =>{
    var [cnt,setCnt]=useState(0)   
@@ -28,7 +29,7 @@ const Count = () =>{
             </Row>
             <Row type="flex" style={{justifyContent:"center" ,marginTop:"3vh"}}>
                 <Col style={{color:"#e6ccff" ,fontFamily:"monospace" ,fontStyle:"italic",fontSize:"2em"}}>
-                {cnt}
+                <CountUp end={cnt} />
                 <hr style={{backgroundColor:"#e6ccff"}}></hr>
                 </Col>                
             </Row>
