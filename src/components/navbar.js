@@ -57,9 +57,15 @@ class Navbar extends React.Component {
           </Link>
         </Menu.Item>
         <Menu.Item style={style2}>
-          <a href="#" style={style}>
+        <Link            
+            to="projects"
+            spy={true}
+            smooth={true}
+            duration={500}
+            style={style}
+          >
             Projects
-          </a>
+          </Link>
         </Menu.Item>
         <Menu.Item style={style2}>
           <a href="#" style={style}>

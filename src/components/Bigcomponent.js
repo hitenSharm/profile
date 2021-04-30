@@ -5,6 +5,7 @@ import Aboutme from './aboutme'
 import Links from './icons'
 import Count from './count'
 import Skill from './skills'
+import Projects from './projects'
 
 function Bigcomponent(){
     return(
@@ -13,8 +14,9 @@ function Bigcomponent(){
         <Name/>
         <Links/>
         <Count/>
-        <Aboutme/> 
+        <Aboutme/>         
         <Skill/>
+        <Projects/>
         </div>
     );
 

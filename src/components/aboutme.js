@@ -1,13 +1,27 @@
-import React, { useEffect } from "react";
+import React, { useEffect,useState } from "react";
 import Fade from "react-reveal/Fade";
 import "antd/dist/antd.css";
 import { Row, Col, Image } from "antd";
+import useWindowDimensions from '../hooks/useWindowDimensions'
 
 const Aboutme = () => {
+
+  const {height,width}=useWindowDimensions();
+  const [xsmal,setXmal]=useState(1);
+
+  useEffect(()=>{
+   if(width<400){
+       setXmal(0);
+   }
+   else{
+       setXmal(1);
+   }   
+  })    
+
   return (
     <div id="aboutme">
       <Row style={{ marginTop: "17vh" }}>
-        <Col xxl={5} xl={3} lg={3} xs={0} md={3} sm={3} />      
+        <Col xxl={5} xl={3} lg={3} xs={xsmal} md={3} sm={3} />      
         <Col style={{ marginTop: "5px", padding: "5px" }}>                           
          <h1
             style={{
