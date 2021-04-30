@@ -10,8 +10,8 @@ function Name() {
   return (
     <div>
     <Row
-      style={{
-        padding: "1em",
+      style={{     
+        marginTop:"3vh",   
         marginRight: "0.5em",
         flexDirection: "column",
         alignItems: "center",

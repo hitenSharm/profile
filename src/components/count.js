@@ -21,7 +21,7 @@ const Count = () =>{
 
     return(
         <div>
-            <Row type="flex" style={{justifyContent:"center" ,marginTop:"3vh"}}>
+            <Row type="flex" style={{justifyContent:"center" ,marginTop:"5vh"}}>
                 <Col style={{color:"#e6ccff" ,fontFamily:"monospace" ,fontStyle:"italic",fontSize:"2em"}}>
                 Website visits
                 </Col>                
@@ -29,6 +29,7 @@ const Count = () =>{
             <Row type="flex" style={{justifyContent:"center" ,marginTop:"3vh"}}>
                 <Col style={{color:"#e6ccff" ,fontFamily:"monospace" ,fontStyle:"italic",fontSize:"2em"}}>
                 {cnt}
+                <hr style={{backgroundColor:"#e6ccff"}}></hr>
                 </Col>                
             </Row>
         </div>
