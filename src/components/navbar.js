@@ -35,8 +35,7 @@ class Navbar extends React.Component {
         style={{ border: 0, backgroundColor: "#282c34" }}
       >
         <Menu.Item style={style2}>
-          <Link
-            className="test6"
+          <Link            
             to="aboutme"
             spy={true}
             smooth={true}
@@ -47,9 +46,15 @@ class Navbar extends React.Component {
           </Link>
         </Menu.Item>
         <Menu.Item style={style2}>
-          <a href="#" style={style}>
+        <Link            
+            to="skills"
+            spy={true}
+            smooth={true}
+            duration={500}
+            style={style}
+          >
             Skills
-          </a>
+          </Link>
         </Menu.Item>
         <Menu.Item style={style2}>
           <a href="#" style={style}>
