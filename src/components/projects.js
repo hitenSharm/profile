@@ -1,9 +1,9 @@
-import React, { useEffect } from "react";
+import React, { useEffect ,useState } from "react";
 import Fade from "react-reveal/Fade";
 import "antd/dist/antd.css";
 import { Row, Col, Card ,Typography  } from "antd";
 import useWindowDimensions from '../hooks/useWindowDimensions'
-import { useState } from "react/cjs/react.development";
+
 const { Title } = Typography;
 
 const cardStyle={ margin: "3%", height: "95%" ,backgroundColor:"#404040" ,cursor:"none"};
