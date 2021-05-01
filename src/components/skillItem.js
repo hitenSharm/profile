@@ -11,6 +11,7 @@ const SkillItem = (props) => {
     <Row style={{ justifyContent: "center", textAlign: "center" }}>
       
         <Fade right>
+          <h3>
           <h1
             style={{
               color: "white",
@@ -23,6 +24,7 @@ const SkillItem = (props) => {
           <Fade left>
             <p style={{ color: "rgb(168, 164, 164)" }}>{data}</p>
           </Fade>
+          </h3>
         </Fade>
       
     </Row>

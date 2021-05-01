@@ -64,7 +64,6 @@ const Skill = () => {
             </Fade>
           </Col>
         </Row>
-
        <SkillItem
           title={"Lanauges"}
           data={"C/C++ , Python , Javascript , Dart"}
