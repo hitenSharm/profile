@@ -21,13 +21,17 @@ const Skill = () => {
   })
   
   useEffect(()=>{    
-    if(width<500)
+    if(width<500 && width>320)
     {
       setiSize(360)
     }
     if(width>=500){
       setiSize(560)
     }      
+    if(width<=320)
+    {
+      setiSize(300)
+    }
   },[width])
 
   return (
@@ -58,14 +62,15 @@ const Skill = () => {
                 width={iSize}
                 height="315"
                 src="https://www.youtube.com/embed/XKX2nW_MyxU"
-                title="YouTube video player"                
+                title="YouTube video player" 
+                frameBorder="0"               
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"                
               ></iframe>
             </Fade>
           </Col>
         </Row>
        <SkillItem
-          title={"Lanauges"}
+          title={"Languages"}
           data={"C/C++ , Python , Javascript , Dart"}
         />
         <SkillItem

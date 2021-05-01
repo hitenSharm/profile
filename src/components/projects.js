@@ -32,7 +32,7 @@ const Projects = () => {
               fontSize: "5em",
               fontFamily: "monospace",
               color: "rgb(168, 164, 164)",
-              marginLeft: "25px",
+              marginLeft: "0.1em",
             }}
           >
             <b>              

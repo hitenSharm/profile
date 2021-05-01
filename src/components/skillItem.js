@@ -8,8 +8,7 @@ const SkillItem = (props) => {
   const data = props.data;
 
   return (
-    <Row style={{ justifyContent: "center", textAlign: "center" }}>
-      
+    <Row style={{ justifyContent: "center", textAlign: "center" }}>      
         <Fade right>
           <h3>
           <h1

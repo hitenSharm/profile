@@ -32,9 +32,9 @@ function Name() {
         <Col>
           <FliesText
             cellRadius={0.5}
-            text="HITEN"
-            fontSize={120}
-            cellWidth={0.03}
+            text="Hiten"
+            fontSize={130}
+            cellWidth={0.02}
             speed={2}
             dodge={false}
             fill="#ffffff"

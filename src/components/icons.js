@@ -20,12 +20,12 @@ const Links = () =>{
             <img src="https://i.imgur.com/7bCU9FL.png" width="70px" alt="Insta Hiten Sharma"></img>
             </Fade>
             </a>
-            <a href="https://www.linkedin.com/in/hiten-sharma-775879192" style={{margin:"6px" , cursor:"none"}}>
+            <a href="https://www.linkedin.com/in/hiten-sharma-775879192" style={style}>
             <Fade top>
             <img src="https://i.imgur.com/FQKtd0K.png" width="70px" alt="LinkedIn Hiten Sharma"></img>
             </Fade>
             </a>            
-            <a href="mailto:hiten.sharm1708@gmail.com" style={{margin:"6px" , cursor:"none"}}>
+            <a href="mailto:hiten.sharm1708@gmail.com" style={style}>
             <Fade bottom>
             <img src="https://seeklogo.com/images/G/gmail-logo-0240527C35-seeklogo.com.png" width="70px" alt="Gmail Hiten Sharma"></img>
             </Fade>
