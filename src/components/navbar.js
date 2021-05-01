@@ -23,7 +23,8 @@ const style2 = {
   color: "white",
   fontFamily: "monospace",
   fontSize: "1.2em",
-  backgroundColor: "#282c34",  
+  backgroundColor: "#282c34",
+  margin:"0"  
 };
 
 // 64-72
