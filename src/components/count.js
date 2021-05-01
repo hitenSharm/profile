@@ -29,7 +29,7 @@ const Count = () =>{
             </Row>
             <Row type="flex" style={{justifyContent:"center" ,marginTop:"3vh"}}>
                 <Col style={{color:"#e6ccff" ,fontFamily:"monospace" ,fontStyle:"italic",fontSize:"2em"}}>
-                <CountUp end={cnt} />
+                <CountUp end={cnt || 0} />
                 <hr style={{backgroundColor:"#e6ccff"}}></hr>
                 </Col>                
             </Row>

@@ -43,8 +43,7 @@ const Skill = () => {
               marginLeft: "25px",
             }}
           >
-            <b>
-              {" "}
+            <b>              
               <Fade right>Skills</Fade>
             </b>
             <hr></hr>
@@ -59,10 +58,8 @@ const Skill = () => {
                 width={iSize}
                 height="315"
                 src="https://www.youtube.com/embed/XKX2nW_MyxU"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
+                title="YouTube video player"                
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"                
               ></iframe>
             </Fade>
           </Col>
