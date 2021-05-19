@@ -55,7 +55,7 @@ const Projects = () => {
               <a   
                 target="_blank"             
                 style={{ color: "white" }}
-                href="https://github.com/hitenSharm/Online-IDE"                
+                href="https://github.com/hitenSharm/IDE-2.0"                
               >
                 GitHub
               </a>
@@ -64,15 +64,15 @@ const Projects = () => {
             <p              
               style={cardPara}
             >
-              An Online IDE made using NodeJS for code execution and ReactJS for Frontend.
-              ReactJS frontend connects to NodeJS server using the exposed endpoints. Code is sent to NodeJS
-              server where it is executed and validated for harmful content.
+              An Online IDE made using NodeJS for code execution. Docker was used to execute each code in a container. ReactJS,Redux for Frontend.
+              User can also make an account and save code and edit them. Code is sent to NodeJS
+              server where it is executed inside Docker container and validated for harmful content.
             </p>
             <p              
               style={cardPara}
             >
-             Output is sent back in JSON format to ReactJS frontend which then renders the output.
-             Can execute Python and Javascript code.
+             Database used was MongoDB for Users and Codes.
+             Can execute C++ and Python code.
             </p>
             <p              
               style={{
@@ -81,7 +81,7 @@ const Projects = () => {
                 marginTop: "27px",
               }}
             >
-              ReactJS NodeJS ExpressJS
+              ReactJS NodeJS ExpressJS Docker MongoDB JWT Redux
             </p>
           </Card>  
           </Fade>        

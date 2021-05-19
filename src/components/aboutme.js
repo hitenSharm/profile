@@ -7,7 +7,7 @@ import useWindowDimensions from '../hooks/useWindowDimensions'
 const Aboutme = () => {
 
   const {height,width}=useWindowDimensions();
-  const [xsmal,setXmal]=useState(1);
+  const [xsmal,setXmal]=useState(1);  
 
   useEffect(()=>{
    if(width<400){

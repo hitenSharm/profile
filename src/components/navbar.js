@@ -27,8 +27,6 @@ const style2 = {
   margin:"0"  
 };
 
-// 64-72
-// 17-33
 const Navbar = () => {
 
   return (
