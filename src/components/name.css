@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt|Reenie+Beanie|Indie+Flower');
+
 #intro {
     background-color: #282c34;
   }
+.headingName{
+  font-family: 'Reenie Beanie',serif;
+  color: white;
+  font-size: 3rem;
+}
+.titleName{
+  font-family: 'Rock Salt',serif;
+  font-size: 7rem;
+}
+
+.textTransition{
+  font-family: 'Indie Flower' , serif;
+}

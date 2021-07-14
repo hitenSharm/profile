@@ -1,73 +1,77 @@
 import React, { useEffect, useState } from "react";
-import { FliesText} from "react-text-fun";
+import { FliesText } from "react-text-fun";
 import { Row, Col } from "antd";
 import Typewriter from "typewriter-effect";
+import TextTransition, { presets } from "react-text-transition";
+
 import "antd/dist/antd.css";
 import "./name.css";
 
+const TEXTS = [
+  "MERN STACK",
+  "Sometimes DS & Algo",
+  "Sometimes Flutter",
+  "Connect With me!",
+];
 
 function Name() {
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    const intervalId = setInterval(
+      () => setIndex((index) => index + 1),
+      2000 // every 3 seconds
+    );
+    return () => clearTimeout(intervalId);
+  }, []);
+
   return (
     <div>
-    <Row
-      style={{     
-        marginTop:"3vh",   
-        marginRight: "0.5em",
-        flexDirection: "column",
-        alignItems: "center",
-      }}
-    >
-      <Row style={{marginTop:"7vh"}}/>
-      <Row>
-        <Col>
-          <div
-            style={{ color: "white", fontFamily: "unispace", fontSize: "2em" }}
-          >            
-            Hello I am
-          </div>
-        </Col>
-      </Row>
+      <Row
+        style={{
+          marginTop: "3vh",
+          marginRight: "0.5em",
+          flexDirection: "column",
+          alignItems: "center",
+        }}
+      >
+        <Row style={{ marginTop: "7vh" }} />
+        <Row>
+          <Col>
+            <div className="headingName">Hello I am</div>
+          </Col>
+        </Row>
 
-      <Row>
-        <Col>
-          <FliesText
-            cellRadius={0.5}
-            text="Hiten"
-            fontSize={130}
-            cellWidth={0.02}
-            speed={2}
-            dodge={false}
-            fill="#ffffff"
-          />
-        </Col>
-      </Row>
-      <Row>
-        <Col>
-        <div
-            style={{ color: "white", fontFamily: "monospace", fontSize: "2em" }}
-          >
-            <Typewriter
+        <Row>
+          <Col>
+            <div className="titleName">
+              <Typewriter
+                onInit={(typewriter) => {
+                  typewriter.typeString("Hiten").start();
+                }}
+              />
+            </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <div
               style={{
-                color: "blue",
+                color: "white",
+                fontSize: "2rem",
               }}
-              onInit={(typewriter) => {
-                typewriter.typeString("MERN STACK")
-                .pauseFor(1000)
-                .deleteAll()
-                .typeString("Sometimes Flutter")                
-                .pauseFor(1000)
-                .deleteAll()
-                .typeString("Sometimes DS & Algo")
-                .pauseFor(1000)
-                .deleteAll()
-                .typeString("Connect With me!")
-                .start();
-              }}
-            />
-          </div>
-        </Col>
+              className="textTransition"
+            >
+              <TextTransition
+                text={TEXTS[index % TEXTS.length]}
+                springConfig={presets.wobbly}
+                noOverflow
+                inline
+              />
+            </div>
+          </Col>
+        </Row>
       </Row>
-    </Row>   
     </div>
   );
 }

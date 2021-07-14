@@ -55,7 +55,8 @@ const Projects = () => {
               <a   
                 target="_blank"             
                 style={{ color: "white" }}
-                href="https://github.com/hitenSharm/IDE-2.0"                
+                href="https://github.com/hitenSharm/IDE-2.0"      
+                rel="noreferrer"          
               >
                 GitHub
               </a>
@@ -83,6 +84,7 @@ const Projects = () => {
             >
               ReactJS NodeJS ExpressJS Docker MongoDB JWT Redux
             </p>
+            <a href="https://www.codacy.com/gh/hitenSharm/IDE-2.0/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=hitenSharm/IDE-2.0&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/e21f7aba824942fdb19ac572e776511e"/></a>
           </Card>  
           </Fade>        
         </Col>
@@ -94,12 +96,13 @@ const Projects = () => {
             style={cardStyle}
             bordered={false}
             hoverable={true}
-            title={<Title level={3} style={{color:"whitesmoke"}}>Discord Bot</Title>}
+            title={<Title level={3} style={{color:"whitesmoke"}}>TreactJS</Title>}
             extra={
               <a                
                 target="_blank"                
                 style={{ color: "white" }}
-                href="https://github.com/hitenSharm/Dicord-Meme-Bot"
+                href="https://github.com/hitenSharm/TreactJS"
+                rel="noreferrer"
               >
                 GitHub
               </a>
@@ -108,10 +111,14 @@ const Projects = () => {
             <p              
               style={cardPara}
             >
-              A Discord Bot hosted on Heroku. Can be used to do reverse image search , send memes using Reddit API , send gifs using Tenor API.
-              It can also send quotes along with Rich Embed for good looking messages.
+              A javscript framework which looks almost and works like ReactJS.
             </p>
-            <img src='https://bettercodehub.com/edge/badge/hitenSharm/Dicord-Meme-Bot?branch=main'></img>
+            <p style={cardPara}>
+            You can make componenets in a similar manner to ReactJS.            
+            </p>
+            <p style={cardPara}>
+            Uses Fiber Tree data structure (similar to ReatJS) to render components for efficiently
+            </p>
             <p              
               style={{
                 textAlign: "left",
@@ -119,8 +126,9 @@ const Projects = () => {
                 marginTop: "20px",
               }}
             >
-              DiscordJS NodeJS
+              Javascript
             </p>
+            <a href="https://www.codacy.com/gh/hitenSharm/TreactJS/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=hitenSharm/TreactJS&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/e16640ddc77343b9a44dcb01fe203869"/></a>
           </Card>
           </Fade>
         </Col>
@@ -138,6 +146,7 @@ const Projects = () => {
                 target="_blank"                
                 style={{ color: "white" }}
                 href="https://github.com/hitenSharm/Pathfinding-Site"
+                rel="noreferrer"
               >
                 GitHub
               </a>
@@ -164,6 +173,7 @@ const Projects = () => {
                 target="_blank"                
                 style={{ color: "white" ,cursor:"none" }}
                 href="https://javascript.plainenglish.io/making-a-pathfinding-website-4796a83e35a6"
+                rel="noreferrer"
               >
                 <b>Medium Article</b>
               </a>
@@ -172,6 +182,7 @@ const Projects = () => {
                 target="_blank"                
                 style={{ color: "white" ,cursor:"none" }}
                 href="https://pathinamaze.hitensharma.repl.co/"
+                rel="noreferrer"
               >
                 <b>See Live</b>
               </a>
@@ -192,6 +203,7 @@ const Projects = () => {
                 target="_blank"                
                 style={{ color: "white" }}
                 href="https://github.com/hitenSharm/CovidTracker"
+                rel="noreferrer"
               >
                 GitHub
               </a>
@@ -217,6 +229,7 @@ const Projects = () => {
                 target="_blank"                
                 style={{ color: "white" ,cursor:"none" }}
                 href="https://hitensharm.github.io/Covid19Tracker/"
+                rel="noreferrer"
               >
                 <b>See Live</b>
               </a>
