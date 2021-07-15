@@ -10,7 +10,7 @@ const Count = () =>{
     useEffect(()=>{
         var ans;
         async function count(){            
-            await axios.get('https://api.countapi.xyz/hit/netify.com/HitenSharmaWebSite').then((result) =>{
+            await axios.get('https://api.countapi.xyz/hit/netify.com/Hiten_SharmaWebSite').then((result) =>{
              console.log(result.data.value)  
              ans = result.data.value;       
              setCnt(ans)
