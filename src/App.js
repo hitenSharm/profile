@@ -12,22 +12,18 @@ const override = css`
 `;
 
 const App = () => {
-  const [isLoaded, setIsLoaded] = useState(false);
-  
+  const [isLoaded, setIsLoaded] = useState(true);  
+
   var widthScreen=useWindowDimensions().width;
   var heightScreen=useWindowDimensions().height;
 
-  useEffect(() => {
-    setIsLoaded(true);    
-  }, []);
-
-  useEffect(()=>{    
-    console.log(widthScreen);
-  })
+  useEffect(() => {    
+    setTimeout(() => setIsLoaded(false), 2000)
+  }, []);  
 
   return (
     <>
-      {!isLoaded ? (
+      {isLoaded ? (
         <div style={{
           height:heightScreen,
           width:widthScreen,
