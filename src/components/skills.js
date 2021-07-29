@@ -78,14 +78,14 @@ const Skill = () => {
           data={"NodeJS , ExpressJS , ReactJS , Ant Design , Bootstrap"}
         />
         <SkillItem
-          title={"Databases/Baas"}
+          title={"Databases/BaaS"}
           data={"MongoDB , MySQL , Firebase"}
         />
         <SkillItem title={"Devops"} data={"Docker, Git"} />
         <SkillItem title={"App Dev"} data={"Flutter"} />
         <SkillItem
           title={"Miscellaneous"}
-          data={"Heroku , Netlify , Adobe Premire Pro"}
+          data={"Heroku , Netlify , Adobe Premiere Pro"}
         /> 
       </Row>      
     </div>

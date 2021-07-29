@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import countapi from 'countapi-js';
 import { Row, Col } from "antd";
 import axios from 'axios'
 import "antd/dist/antd.css";
@@ -10,8 +9,7 @@ const Count = () =>{
     useEffect(()=>{
         var ans;
         async function count(){            
-            await axios.get('https://api.countapi.xyz/hit/netify.com/HitenSharmaWebSite').then((result) =>{
-             console.log(result.data.value)  
+            await axios.get('https://api.countapi.xyz/hit/netify.com/HitenSharmaWebSite').then((result) =>{             
              ans = result.data.value;       
              setCnt(ans)
              });                        

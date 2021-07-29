@@ -44,7 +44,7 @@ const Aboutme = () => {
           <Fade left>
           <Image
             width={290}
-            src="https://i.imgur.com/74wVAPb.png"
+            src="https://i.imgur.com/CSR9IsU.jpg"
             alt="Hiten Sharma"
             style={{
               cursor:"none"

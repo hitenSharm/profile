@@ -72,7 +72,7 @@ const Navbar = () => {
           <Menu.Item style={style2}>
             <a
               target="_blank"
-              href="https://drive.google.com/file/d/1z4blFhEGXV-RV4ZjeZj9eIbwK4j3hJgq/view?usp=sharing"
+              href="https://drive.google.com/file/d/1PStJua2HjDwurq9yW-YlKVGF4v7NS27h/view?usp=sharing"
               style={style}
               rel="noreferrer"
             >
