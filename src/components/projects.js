@@ -197,12 +197,12 @@ const Projects = () => {
             style={cardStyle}
             bordered={false}
             hoverable={true}
-            title={<Title level={3} style={{color:"whitesmoke"}}>Covid 19 Tracker</Title>}
+            title={<Title level={3} style={{color:"whitesmoke"}}>Discord Music bot</Title>}
             extra={
               <a                
                 target="_blank"                
                 style={{ color: "white" }}
-                href="https://github.com/hitenSharm/CovidTracker"
+                href="https://github.com/hitenSharm/Discord-Meme-and-Music-Bot"
                 rel="noreferrer"
               >
                 GitHub
@@ -212,10 +212,9 @@ const Projects = () => {
             <p              
               style={cardPara}
             >
-              Track the number of patients of Covid 19 around the world. You can also see infromation regarding a particular country.
-              ReactJS was used to gather that information using an API.
-            </p>
-            <img src='https://bettercodehub.com/edge/badge/hitenSharm/CovidTracker?branch=master'></img>
+              A Discord bot which can send memes, gifs and messages using various APIs.
+              It can also do reverse image search.              
+            </p>            
             <p              
               style={{
                 textAlign: "left",
@@ -223,8 +222,10 @@ const Projects = () => {
                 marginTop: "20px",
               }}
             >
-              ReactJS              
-            </p>            
+              You can play music in the voice channel. All the songs get stored in a queue.
+              You can skip, stop , pause , resume music.          
+            </p>
+            <img src='https://bettercodehub.com/edge/badge/hitenSharm/Dicord-Meme-Bot?branch=main'></img><br/><br/>            
             <a                
                 target="_blank"                
                 style={{ color: "white" ,cursor:"none" }}

@@ -81,7 +81,7 @@ const Skill = () => {
           title={"Databases/BaaS"}
           data={"MongoDB , MySQL , Firebase"}
         />
-        <SkillItem title={"Devops"} data={"Docker, Git"} />
+        <SkillItem title={"DevOps"} data={"Docker, Git"} />
         <SkillItem title={"App Dev"} data={"Flutter"} />
         <SkillItem
           title={"Miscellaneous"}
