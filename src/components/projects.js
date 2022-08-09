@@ -1,6 +1,5 @@
 import React, { useEffect ,useState } from "react";
 import Fade from "react-reveal/Fade";
-import "antd/dist/antd.css";
 import { Row, Col, Card ,Typography  } from "antd";
 import useWindowDimensions from '../hooks/useWindowDimensions'
 

@@ -4,6 +4,7 @@ import Bigcomponent from "./components/Bigcomponent";
 import { css } from "@emotion/react";
 import HashLoader from "react-spinners/HashLoader";
 import useWindowDimensions from "./hooks/useWindowDimensions";
+import { Typography } from "antd";
 
 const override = css`
   display: block;
@@ -32,12 +33,20 @@ const App = () => {
           alignItems:"center"
         }}>
           <AnimatedCursor />
+          <div>
           <HashLoader
             loading={isLoaded}
             css={override}
-            size={150}
+            size={100}
             color="#bad6c2"
           />
+          <Typography.Title level={3} style={{
+            marginTop:"15px",
+            color:"white",
+            fontFamily:"Roboto",
+            textAlign:"center"            
+          }}>Viewer = require("website")</Typography.Title>
+          </div>
         </div>
       ) : (
         <div

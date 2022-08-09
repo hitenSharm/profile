@@ -1,7 +1,6 @@
 import React from "react";
 import { Row, Col } from "antd";
 import { GithubOutlined,InstagramOutlined,LinkedinOutlined,MailOutlined } from '@ant-design/icons'
-import "antd/dist/antd.css";
 import Fade from 'react-reveal/Fade';
 
 const style={margin:"5px" , cursor:"none"};

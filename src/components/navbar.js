@@ -1,7 +1,5 @@
 import React from "react";
 import { Row, Col, Menu } from "antd";
-import Layout, { Header } from "antd/lib/layout/layout";
-import "antd/dist/antd.css";
 // import useWindowDimensions from '../hooks/useWindowDimensions'
 
 var Scroll = require("react-scroll");
@@ -72,7 +70,7 @@ const Navbar = () => {
           <Menu.Item style={style2}>
             <a
               target="_blank"
-              href="https://drive.google.com/file/d/1PStJua2HjDwurq9yW-YlKVGF4v7NS27h/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Eg48VT-bckP1z44imj_iP52-JCif3lLD/view?usp=sharing"
               style={style}
               rel="noreferrer"
             >

@@ -1,4 +1,4 @@
-import React ,{useEffect} from "react";
+import React ,{lazy} from "react";
 import Name from "./name";
 import Navbar from './navbar'
 import Aboutme from './aboutme'

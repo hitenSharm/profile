@@ -3,10 +3,20 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import WebfontLoader from '@dr-kobros/react-webfont-loader';
+import "antd/dist/antd.css";
+
+const config = {
+  google: {
+    families: ['Rock Salt','Reenie Beanie','Indie Flower'],
+  }
+};
 
 ReactDOM.render(
   <React.Fragment>
+    <WebfontLoader config={config}>
     <App />
+    </WebfontLoader>
   </React.Fragment>,
   document.getElementById('root')
 );

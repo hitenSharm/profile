@@ -1,6 +1,5 @@
 import React, { useEffect,useState } from "react";
 import Fade from "react-reveal/Fade";
-import "antd/dist/antd.css";
 import { Row, Col } from "antd";
 import useWindowDimensions from '../hooks/useWindowDimensions'
 import SkillItem from './skillItem';
@@ -74,19 +73,19 @@ const Skill = () => {
           data={"C/C++ , Python , Javascript , Dart"}
         />
         <SkillItem
-          title={"Web Dev"}
+          title={"Web"}
           data={"NodeJS , ExpressJS , ReactJS , Ant Design , Bootstrap"}
         />
         <SkillItem
-          title={"Databases/BaaS"}
+          title={"Databases"}
           data={"MongoDB , MySQL , Firebase"}
         />
         <SkillItem title={"DevOps"} data={"Docker, Git"} />
         <SkillItem title={"App Dev"} data={"Flutter"} />
         <SkillItem
-          title={"Miscellaneous"}
+          title={"Tools"}
           data={"Heroku , Netlify , Adobe Premiere Pro"}
-        /> 
+        />         
       </Row>      
     </div>
   );

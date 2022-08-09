@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { FliesText } from "react-text-fun";
 import { Row, Col } from "antd";
 import Typewriter from "typewriter-effect";
 import TextTransition, { presets } from "react-text-transition";
 
-import "antd/dist/antd.css";
 import "./name.css";
 
 const TEXTS = [
@@ -16,7 +14,6 @@ const TEXTS = [
 
 function Name() {
   const [index, setIndex] = useState(0);
-
   useEffect(() => {
     const intervalId = setInterval(
       () => setIndex((index) => index + 1),
@@ -26,7 +23,7 @@ function Name() {
   }, []);
 
   return (
-    <div>
+    <div>      
       <Row
         style={{
           marginTop: "3vh",
