@@ -6,12 +6,15 @@
   font-family: 'Reenie Beanie',serif;
   color: white;
   font-size: 3rem;
+  font-display: swap;
 }
 .titleName{
   font-family: 'Rock Salt',serif;
   font-size: 7rem;
+  font-display: swap;
 }
 
 .textTransition{
   font-family: 'Indie Flower' , serif;
+  font-display: swap;
 }

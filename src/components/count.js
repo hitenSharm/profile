@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Row, Col, Typography } from "antd";
-import axios from 'axios'
-import CountUp from 'react-countup';
-import './count.css'
+import axios from "axios";
+import CountUp from "react-countup";
+import "./count.css";
 
 var Scroll = require("react-scroll");
 var Link = Scroll.Link;
@@ -11,48 +11,31 @@ var scroll = Scroll.animateScroll;
 var scrollSpy = Scroll.scrollSpy;
 
 const style = {
-  cursor: "none",
-  color: "white",
-  fontFamily: "monospace",
-  fontSize: "1.2em",
+  cursor: "none",    
+  margin:"2em",
   backgroundColor: "#282c34",
 };
 
-
-const Count = () =>{
-//    var [cnt,setCnt]=useState(0)   
-//     useEffect(()=>{
-//         var ans;
-//         async function count(){            
-//             await axios.get('https://api.countapi.xyz/hit/netify.com/HitenSharma2WebSite').then((result) =>{             
-//              ans = result.data.value;       
-//              setCnt(ans)
-//              });                        
-//         }
-//         count();        
-//         setCnt(ans)
-//     },[])
-
-    return (
-      <div>
-        <Row type="flex" style={{ justifyContent: "center", marginTop: "5vh" }}>
+const Count = () => {
+  return (
+    <div>
+      <Row type="flex" style={{ justifyContent: "center", marginTop: "5vh" }}>
         <Link
-              to="aboutme"
-              spy={true}
-              smooth={true}
-              duration={500}
-              style={style}
-            >
+          to="aboutme"
+          spy={true}
+          smooth={true}
+          duration={500}
+          style={style}          
+        >
           <div class="scroll-down svg" id="home-scroll-down">
             <svg
-              xmlns="http://www.w3.org/2000/svg"             
+              xmlns="http://www.w3.org/2000/svg"
               version="1.1"
               id="Layer_2"
               x="0px"
               y="0px"
               viewBox="0 0 25.166666 37.8704414"
               enable-background="new 0 0 25.166666 37.8704414"
-              
             >
               <path
                 class="stroke"
@@ -69,18 +52,11 @@ const Count = () =>{
               ></path>
             </svg>
             <i class="icon icon-arrow-down"></i>
-          </div>          
-              
-            </Link>
-        </Row>        
-        {/* <Row type="flex" style={{justifyContent:"center" ,marginTop:"3vh"}}>
-                <Col style={{color:"#e6ccff" ,fontFamily:"monospace" ,fontStyle:"italic",fontSize:"2em"}}>
-                <CountUp end={cnt || 0} />
-                <hr style={{backgroundColor:"#e6ccff"}}></hr>
-                </Col>                
-            </Row> */}
-      </div>
-    );
-}
+          </div>
+        </Link>
+      </Row>
+    </div>
+  );
+};
 
 export default Count;
