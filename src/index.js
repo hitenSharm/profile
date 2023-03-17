@@ -14,9 +14,10 @@ const config = {
 
 ReactDOM.render(
   <React.Fragment>
-    <WebfontLoader config={config}>
-    <App />    
-    </WebfontLoader>
+    {/* <WebfontLoader config={config}>
+       
+    </WebfontLoader> */}
+    <App /> 
   </React.Fragment>,
   document.getElementById('root')
 );
