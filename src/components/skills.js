@@ -3,6 +3,7 @@ import Fade from "react-reveal/Fade";
 import { Row, Col } from "antd";
 import useWindowDimensions from '../hooks/useWindowDimensions'
 import SkillItem from './skillItem';
+import ComputersCanvas from "./Computers";
 
 const Skill = () => {
 
@@ -55,17 +56,13 @@ const Skill = () => {
       </Row>
       <Row style={{ display: "flex", flexDirection: "column" }}>
         <Row style={{ justifyContent: "center" }}>
-          <Col style={{ margin: "0.4em" }}>
-            <Fade right>
-              <iframe
-                width={iSize}
-                height="315"
-                src="https://www.youtube.com/embed/XKX2nW_MyxU"
-                title="YouTube video player" 
-                frameBorder="0"               
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"                
-              ></iframe>
-            </Fade>
+          <Col style={{ marginTop: "-5em",right:"30px" }}>
+            <div style={{
+              width:iSize,
+              height:"315px"              
+            }}>
+            <ComputersCanvas/>
+            </div>
           </Col>
         </Row>
        <SkillItem

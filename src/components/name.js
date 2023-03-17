@@ -1,26 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { Row, Col } from "antd";
 import Typewriter from "typewriter-effect";
-import TextTransition, { presets } from "react-text-transition";
 
 import "./name.css";
+import EarthCanvas from "./Earth";
 
-const TEXTS = [
-  "MERN STACK",
-  "Sometimes DS & Algo",
-  "Sometimes Flutter",
-  "Connect With me!",
-];
 
-function Name() {
-  const [index, setIndex] = useState(0);
-  useEffect(() => {
-    const intervalId = setInterval(
-      () => setIndex((index) => index + 1),
-      2000 // every 3 seconds
-    );
-    return () => clearTimeout(intervalId);
-  }, []);
+function Name() {  
 
   return (
     <div>      
@@ -46,7 +32,7 @@ function Name() {
                 onInit={(typewriter) => {
                   typewriter.typeString("Hiten").start();
                 }}
-              />
+              />              
             </div>
           </Col>
         </Row>
@@ -58,13 +44,8 @@ function Name() {
                 fontSize: "2rem",
               }}
               className="textTransition"
-            >
-              <TextTransition
-                text={TEXTS[index % TEXTS.length]}
-                springConfig={presets.wobbly}
-                noOverflow
-                inline
-              />
+            >              
+              <EarthCanvas/>
             </div>
           </Col>
         </Row>

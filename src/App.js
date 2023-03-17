@@ -19,7 +19,8 @@ const App = () => {
   var heightScreen=useWindowDimensions().height;
 
   useEffect(() => {    
-    setTimeout(() => setIsLoaded(false), 2000)
+    setTimeout(() => setIsLoaded(false), 1000)
+    document.getElementById("root").click();
   }, []);  
 
   return (
