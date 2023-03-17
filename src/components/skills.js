@@ -18,7 +18,7 @@ const Skill = () => {
    else{
        setXmal(3);
    }   
-  })
+  },[width])
   
   useEffect(()=>{    
     if(width<500 && width>320)
